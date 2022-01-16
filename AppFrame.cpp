@@ -18,7 +18,3 @@ void AppFrame::OnExit(wxCommandEvent& event)
 {
 	Destroy();
 }
-
-void AppFrame::OnMinimize(wxCommandEvent& event)
-{
-}

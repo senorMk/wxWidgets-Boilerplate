@@ -13,6 +13,5 @@ class AppFrame : public AppFrameBase
 
 	protected:
 		virtual void OnExit(wxCommandEvent& event);
-		virtual void OnMinimize(wxCommandEvent& event);
 
 };

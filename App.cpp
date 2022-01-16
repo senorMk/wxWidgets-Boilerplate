@@ -12,15 +12,8 @@ bool TemplateApp::OnInit()
 	// Set application name
 	wxApp::SetAppName("Template");
 
-	try
-	{
-		pFrame = new AppFrame(0L);
-		pFrame->Show();
-	}
-	catch (...)
-	{
-
-	}
+	pFrame = new AppFrame(0L);
+	pFrame->Show();
 
 	// Images
 	wxInitAllImageHandlers();
